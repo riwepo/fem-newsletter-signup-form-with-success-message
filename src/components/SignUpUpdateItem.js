@@ -7,7 +7,7 @@ function SignUpUpdateItem({ item }) {
   return (
     <li className={classes.listItem}>
       <img src={listIcon} alt="tick" />
-      <h2>{item}</h2>
+      <p>{item}</p>
     </li>
   );
 }
