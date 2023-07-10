@@ -5,3 +5,27 @@
   align-items: flex-start;
   gap: 1rem;
 }
+
+.form label {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.form input {
+  width: 100%;
+  padding: 1rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  border-color: grey;
+  border-width: thin;
+}
+
+.form button {
+  width: 100%;
+  padding: 1rem 1rem;
+  font-size: 1.2rem;
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+}
