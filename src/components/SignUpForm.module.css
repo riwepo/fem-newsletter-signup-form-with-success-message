@@ -29,3 +29,8 @@
   border: none;
   border-radius: 0.5rem;
 }
+
+.form button:hover,
+.form button:active {
+  background-color: hsl(4, 100%, 67%);
+}
