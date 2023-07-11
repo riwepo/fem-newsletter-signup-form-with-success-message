@@ -4,7 +4,7 @@ import SignUpForm from "./SignUpForm";
 
 import classes from "./SignUpInfo.module.css";
 
-function SignUpInfo() {
+function SignUpInfo({ onSignUpSuccess }) {
   const items = [
     "Product discovery and building what matters",
     "Measuring to ensure updates are a success",
@@ -15,7 +15,7 @@ function SignUpInfo() {
       <h1>Stay Updated!</h1>
       <p>Join 60,000+ product managers receiving monthly updates on:</p>
       <SignUpUpdateList items={items} />
-      <SignUpForm />
+      <SignUpForm onSignUpSuccess={onSignUpSuccess} />
     </section>
   );
 }
