@@ -1,19 +1,24 @@
 import React, { useState } from "react";
 import SignUpCard from "./components/SignUpCard";
-import SuccessModal from "./components/SuccessModal";
+import Modals from "./components/modal/Modals";
 
 function App() {
   const [signUpEmail, setSignUpEmail] = useState("");
 
   const signUpSuccessHandler = (email) => {
-    console.log("sign up success", email);
     setSignUpEmail(email);
+  };
+
+  const dismissModalHandler = () => {
+    setSignUpEmail("");
   };
 
   return (
     <div className="App">
       <SignUpCard onSignUpSuccess={signUpSuccessHandler} />
-      {signUpEmail !== "" && <SuccessModal email={signUpEmail} />}
+      {signUpEmail !== "" && (
+        <Modals email={signUpEmail} onDismiss={dismissModalHandler} />
+      )}
     </div>
   );
 }
