@@ -42,6 +42,10 @@
   border-width: thin;
 }
 
+.form input:active {
+  cursor: pointer;
+}
+
 .form input.invalid {
   background-color: var(--tomato-tp-color);
   color: var(--tomato-color);
