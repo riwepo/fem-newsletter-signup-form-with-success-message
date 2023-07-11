@@ -1,3 +1,10 @@
+/* place variables in form class */
+.form {
+  --tomato-color: hsl(4, 100%, 67%);
+  --tomato-tp-color: hsl(4, 100%, 67%, 0.2);
+  --dark-slate-grey-color: hsl(234, 29%, 20%);
+}
+
 .form {
   display: flex;
   flex-direction: column;
@@ -6,9 +13,24 @@
   gap: 1rem;
 }
 
+.form .labels {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .form label {
   font-size: 1rem;
   font-weight: bold;
+  text-align: left;
+}
+
+.form label.invalid {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--tomato-color);
+  text-align: right;
 }
 
 .form input {
@@ -20,11 +42,17 @@
   border-width: thin;
 }
 
+.form input.invalid {
+  background-color: var(--tomato-tp-color);
+  color: var(--tomato-color);
+  border-color: var(--tomato-color);
+}
+
 .form button {
   width: 100%;
   padding: 1rem 1rem;
   font-size: 1.2rem;
-  background-color: hsl(234, 29%, 20%);
+  background-color: var(--dark-slate-grey-color);
   color: white;
   border: none;
   border-radius: 0.5rem;
@@ -32,5 +60,11 @@
 
 .form button:hover,
 .form button:active {
-  background-color: hsl(4, 100%, 67%);
+  background-color: var(--tomato-color);
+  cursor: pointer;
+}
+
+.form button:disabled {
+  background-color: lightgrey;
+  cursor: default;
 }
