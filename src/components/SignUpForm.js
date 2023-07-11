@@ -35,7 +35,14 @@ function SignUpForm() {
   const submitDisabled = !enteredEmailIsTouched || !enteredEmailIsValid;
   return (
     <form className={classes.form} onSubmit={formSubmissionHandler}>
-      <label htmlFor="email">Email Address</label>
+      <div className={classes.labels}>
+        <label htmlFor="email">Email Address</label>
+        {emailHasError && (
+          <label htmlFor="email" className={classes.invalid}>
+            Valid email required
+          </label>
+        )}
+      </div>
       <input
         className={`${emailHasError ? classes.invalid : ""}`}
         type="text"
