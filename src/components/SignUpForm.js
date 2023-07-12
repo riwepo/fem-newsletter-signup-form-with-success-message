@@ -1,6 +1,8 @@
 import React from "react";
 import { useState } from "react";
 
+import Button from "./UI/Button";
+
 import classes from "./SignUpForm.module.css";
 
 function SignUpForm({ onSignUpSuccess }) {
@@ -52,7 +54,10 @@ function SignUpForm({ onSignUpSuccess }) {
         onChange={emailInputChangeHandler}
         value={enteredEmail}
       />
-      <button disabled={submitDisabled}>Subcribe to monthly newsletter</button>
+      <Button
+        content="Subcribe to monthly newsletter"
+        isDisabled={submitDisabled}
+      />
     </form>
   );
 }
