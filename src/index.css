@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&family=Roboto:wght@400;700&display=swap");
 
+:root {
+  --dark-slate-grey-color: hsl(234, 29%, 20%);
+}
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
   font-size: 62.5%;
+  background-color: var(--dark-slate-grey-color);
 }
 
 * {
