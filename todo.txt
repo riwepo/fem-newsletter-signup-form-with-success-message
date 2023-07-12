@@ -1,3 +1,3 @@
-make success modal cover all screen
-use common code for blue button
+make success modal cover all screen - done
+use common code for blue button - done
 style for desktop
