@@ -66,7 +66,9 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-I learned in CSS modules I have to use classes, can't select on elements or it wont be privatised to the component
+I learned in CSS modules I have to use classes, can't select on elements or it wont be privatised to the component.
+
+I learned how to deploy React app to github pages, it is a little more involved than deploying a vanilla HTML app.
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
