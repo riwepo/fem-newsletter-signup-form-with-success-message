@@ -52,7 +52,7 @@ Users should be able to:
 
 This was my first React.js challenge so there was a lot to learn just to get up and running.
 
-I learned in CSS modules I have to use classes, can't select on elements or it wont be privatised to the component.
+I learned in CSS modules I have to use classes, can't select on elements or it won't be privatized to the component.
 
 I learned how to deploy React app to github pages, it is a little more involved than deploying a vanilla HTML app.
 
