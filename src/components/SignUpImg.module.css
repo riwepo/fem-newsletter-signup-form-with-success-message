@@ -1,0 +1,18 @@
+.mobileImg {
+  display: inline-block;
+}
+.desktopImg {
+  display: none;
+}
+
+/* media query for desktop */
+@media (min-width: 768px) {
+  .mobileImg {
+    display: none;
+  }
+  .desktopImg {
+    height: 100%;
+    flex-direction: stretch;
+    display: inline-block;
+  }
+}
