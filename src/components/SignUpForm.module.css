@@ -2,7 +2,6 @@
 .form {
   --tomato-color: hsl(4, 100%, 67%);
   --tomato-tp-color: hsl(4, 100%, 67%, 0.2);
-  --dark-slate-grey-color: hsl(234, 29%, 20%);
 }
 
 .form {
@@ -50,25 +49,4 @@
   background-color: var(--tomato-tp-color);
   color: var(--tomato-color);
   border-color: var(--tomato-color);
-}
-
-.form button {
-  width: 100%;
-  padding: 1rem 1rem;
-  font-size: 1.2rem;
-  background-color: var(--dark-slate-grey-color);
-  color: white;
-  border: none;
-  border-radius: 0.5rem;
-}
-
-.form button:hover,
-.form button:active {
-  background-color: var(--tomato-color);
-  cursor: pointer;
-}
-
-.form button:disabled {
-  background-color: lightgrey;
-  cursor: default;
 }
