@@ -32,6 +32,7 @@ function SignUpForm({ onSignUpSuccess }) {
     event.preventDefault();
     onSignUpSuccess(enteredEmail);
     setEnteredEmail("");
+    setEnteredEmailIsTouched(false);
   };
 
   const emailHasError = enteredEmailIsTouched && !enteredEmailIsValid;
