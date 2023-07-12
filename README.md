@@ -71,3 +71,5 @@ I learned the difference between App.css and index.css.
 I want to acknowledge the Udemy React course I took:
 React - The Complete Guide 2023 (incl. React Router & Redux)
 by Maximilian Schwarzmüller, it is excellent.
+
+Also thanks to Front End Mentor for the opportunity for all of this practice.
