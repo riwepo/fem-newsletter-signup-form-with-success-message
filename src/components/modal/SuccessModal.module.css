@@ -22,3 +22,13 @@
   width: 5rem;
   aspect-ratio: 1/1;
 }
+
+.modal h1 {
+  font-size: 2rem;
+  padding: 1rem 1rem;
+}
+
+.modal p {
+  font-size: 1.2rem;
+  padding: 1rem 1rem;
+}
