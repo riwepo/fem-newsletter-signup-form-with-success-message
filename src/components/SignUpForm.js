@@ -57,6 +57,7 @@ function SignUpForm({ onSignUpSuccess }) {
       <Button
         content="Subcribe to monthly newsletter"
         isDisabled={submitDisabled}
+        onClick={null}
       />
     </form>
   );
