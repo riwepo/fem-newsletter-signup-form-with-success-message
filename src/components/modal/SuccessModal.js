@@ -13,8 +13,8 @@ function SuccessModal({ email, onDismiss }) {
         <img src={successImage} alt="tick" />
         <h1>Thanks for subscribing!</h1>
         <p>
-          A confirmation email has been sent to {email}. Please open it and
-          click the button inside to confirm your subscription
+          A confirmation email has been sent to <strong>{email}</strong>. Please
+          open it and click the button inside to confirm your subscription
         </p>
         <Button
           onClick={onDismiss}
