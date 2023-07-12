@@ -22,17 +22,3 @@
   width: 5rem;
   aspect-ratio: 1/1;
 }
-
-.modal button {
-  padding: 1rem 2rem;
-  background-color: var(--dark-slate-grey-color);
-  color: white;
-  border: none;
-  border-radius: 0.5rem;
-}
-
-.modal button:hover,
-.modal button:active {
-  background-color: var(--tomato-color);
-  cursor: pointer;
-}

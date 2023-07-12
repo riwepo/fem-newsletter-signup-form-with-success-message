@@ -2,6 +2,8 @@ import React from "react";
 
 import successImage from "../../assets/images/icon-success.svg";
 
+import Button from "../UI/Button";
+
 import classes from "./SuccessModal.module.css";
 
 function SuccessModal({ email, onDismiss }) {
@@ -14,7 +16,11 @@ function SuccessModal({ email, onDismiss }) {
           A confirmation email has been sent to {email}. Please open it and
           click the button inside to confirm your subscription
         </p>
-        <button onClick={onDismiss}>Dismiss message</button>
+        <Button
+          onClick={onDismiss}
+          content="Dismiss message"
+          isDisabled={false}
+        />
       </div>
     </>
   );
