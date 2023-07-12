@@ -1,12 +1,12 @@
 /* place variables in button class */
-button {
+.button {
   --tomato-color: hsl(4, 100%, 67%);
   --dark-slate-grey-color: hsl(234, 29%, 20%);
   --light-grey-color: lightgrey;
   --white-color: white;
 }
 
-button {
+.button {
   width: 100%;
   padding: 1rem 1rem;
   font-size: 1.2rem;
@@ -16,13 +16,13 @@ button {
   border-radius: 0.5rem;
 }
 
-button:hover,
-button:active {
+.button:hover,
+.button:active {
   background-color: var(--tomato-color);
   cursor: pointer;
 }
 
-button:disabled {
+.button:disabled {
   background-color: var(--light-grey-color);
   cursor: default;
 }
