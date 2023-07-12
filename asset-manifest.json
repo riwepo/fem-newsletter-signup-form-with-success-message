@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/fem-newsletter-signup-form-with-success-message/static/css/main.d4a436ff.css",
-    "main.js": "/fem-newsletter-signup-form-with-success-message/static/js/main.80d3645a.js",
+    "main.css": "/fem-newsletter-signup-form-with-success-message/static/css/main.69cac9f5.css",
+    "main.js": "/fem-newsletter-signup-form-with-success-message/static/js/main.936e05d1.js",
     "static/js/787.456476b9.chunk.js": "/fem-newsletter-signup-form-with-success-message/static/js/787.456476b9.chunk.js",
     "static/media/illustration-sign-up-mobile.svg": "/fem-newsletter-signup-form-with-success-message/static/media/illustration-sign-up-mobile.3f6f1c6d3e48045cb31a0cae1ae11999.svg",
+    "static/media/illustration-sign-up-desktop.svg": "/fem-newsletter-signup-form-with-success-message/static/media/illustration-sign-up-desktop.ce2024babf0bc98a8862252535b544c9.svg",
     "index.html": "/fem-newsletter-signup-form-with-success-message/index.html",
     "static/media/icon-success.svg": "/fem-newsletter-signup-form-with-success-message/static/media/icon-success.1ad016255f85fa877dc6bee8c9621535.svg",
     "static/media/icon-list.svg": "/fem-newsletter-signup-form-with-success-message/static/media/icon-list.5e317c030bb9f11a33433484a2c590e1.svg",
-    "main.d4a436ff.css.map": "/fem-newsletter-signup-form-with-success-message/static/css/main.d4a436ff.css.map",
-    "main.80d3645a.js.map": "/fem-newsletter-signup-form-with-success-message/static/js/main.80d3645a.js.map",
+    "main.69cac9f5.css.map": "/fem-newsletter-signup-form-with-success-message/static/css/main.69cac9f5.css.map",
+    "main.936e05d1.js.map": "/fem-newsletter-signup-form-with-success-message/static/js/main.936e05d1.js.map",
     "787.456476b9.chunk.js.map": "/fem-newsletter-signup-form-with-success-message/static/js/787.456476b9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4a436ff.css",
-    "static/js/main.80d3645a.js"
+    "static/css/main.69cac9f5.css",
+    "static/js/main.936e05d1.js"
   ]
 }
