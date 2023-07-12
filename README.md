@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL](https://your-solution-url.cohttps://github.com/riwepo/fem-newsletter-signup-form-with-success-messagem)
-- Live Site URL: [live site URL here](https://riwepo.github.io/fem-newsletter-signup-form-with-success-message/)
+- Solution URL: [solution URL](https://github.com/riwepo/fem-newsletter-signup-form-with-success-message)
+- Live Site URL: [live site URL](https://riwepo.github.io/fem-newsletter-signup-form-with-success-message/)
 
 ## My process
 
